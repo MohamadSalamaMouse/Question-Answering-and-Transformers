@@ -32,3 +32,14 @@ Through fine-tuning on various tasks, BERT achieved state-of-the-art performance
 If you use or reference BERT in your work, please cite the original paper:
 
 [Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv preprint arXiv:1810.04805.](https://arxiv.org/abs/1810.04805)
+
+# Question Answering with Hugging Face MyModel 
+
+This project demonstrates how to use a pre-trained model from Hugging Face for question answering. We'll use the `transformers` library to load a model checkpoint and perform question answering on a given context and question.
+
+## Installation
+
+First, make sure you have the `transformers` library installed. You can install it via pip:
+
+```bash
+pip install transformers
