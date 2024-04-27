@@ -1,4 +1,5 @@
 # BERT: Bidirectional Encoder Representations from Transformers
+![BERT](image_filename.png)
 
 BERT (Bidirectional Encoder Representations from Transformers) is a groundbreaking natural language processing (NLP) model introduced by Google AI in 2018. It marked a significant advancement in the field of deep learning for NLP tasks, particularly due to its innovative use of transformers.
 
