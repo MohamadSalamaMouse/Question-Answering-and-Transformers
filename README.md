@@ -89,7 +89,7 @@ No specific training results provided.
 
 
 
-# Question Answering with Hugging Face MyModel 
+# Question Answering with Hugging Face pre_trained Model 
 
 This project demonstrates how to use a pre-trained model from Hugging Face for question answering. We'll use the `transformers` library to load a model checkpoint and perform question answering on a given context and question.
 
