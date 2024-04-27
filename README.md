@@ -41,6 +41,7 @@ This project demonstrates how to use a pre-trained model from Hugging Face for q
 
 First, make sure you have the `transformers` library installed. You can install it via pip:
 
+```python
 from transformers import pipeline
 
 # Load the question answering pipeline with the specified model checkpoint
@@ -57,7 +58,3 @@ answer = question_answerer(question=question, context=context)
 # Print the answer
 print("Question:", question)
 print("Answer:", answer['answer'])
-
-
-```bash
-pip install transformers
