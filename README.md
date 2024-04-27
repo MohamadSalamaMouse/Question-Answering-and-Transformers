@@ -35,6 +35,9 @@ Through fine-tuning on various tasks, BERT achieved state-of-the-art performance
 If you use or reference BERT in your work, please cite the original paper:
 
 [Devlin, J., Chang, M. W., Lee, K., & Toutanova, K. (2018). BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding. arXiv preprint arXiv:1810.04805.](https://arxiv.org/abs/1810.04805)
+
+# The model [roberta-finetuned-subjqa-movies_2](https://huggingface.co/mohamed13579/roberta-finetuned-subjqa-movies_2) is hosted on my Hugging Face account.
+![BERT](https://github.com/MohamadSalamaMouse/Question-Answering-and-Transformers/blob/main/1_aqdgJOqpd2Zvv-uMLUJQAw.webp)
 ## Model Details 
 ---
 license: cc-by-4.0
