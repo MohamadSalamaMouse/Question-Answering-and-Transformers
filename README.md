@@ -41,5 +41,23 @@ This project demonstrates how to use a pre-trained model from Hugging Face for q
 
 First, make sure you have the `transformers` library installed. You can install it via pip:
 
+from transformers import pipeline
+
+# Load the question answering pipeline with the specified model checkpoint
+model_checkpoint = "mohamed13579/roberta-finetuned-subjqa-movies_2"
+question_answerer = pipeline("question-answering", model=model_checkpoint)
+
+# Provide context and question
+context = "Replace this with your own context"  # e.g., df_train1.iloc[13].review
+question = "Replace this with your question"    # e.g., df_train1.iloc[13].question
+
+# Use the question answering pipeline to get the answer
+answer = question_answerer(question=question, context=context)
+
+# Print the answer
+print("Question:", question)
+print("Answer:", answer['answer'])
+
+
 ```bash
 pip install transformers
